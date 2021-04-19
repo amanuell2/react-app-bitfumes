@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-import Navbar from "components/Navbar.js";
-import Footer from "components/Footer.js";
-import RepositoryCard from "components/RepositoryCard";
-import Banner from "components/Banner";
+import Navbar from "../components/Navbar.js";
+import Footer from "../components/Footer.js";
+import RepositoryCard from "../components/RepositoryCard";
+import Banner from "../components/Banner";
 export default function Landing() {
   const [repositories, setRepositories] = useState();
   const [query, setQuery] = useState();
